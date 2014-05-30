@@ -21,6 +21,23 @@
 		0400F32F18B4ED4200E5FA6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0400F31118B4ED4200E5FA6D /* UIKit.framework */; };
 		0400F33718B4ED4200E5FA6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0400F33518B4ED4200E5FA6D /* InfoPlist.strings */; };
 		0400F33918B4ED4200E5FA6D /* Pixel_BikersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400F33818B4ED4200E5FA6D /* Pixel_BikersTests.m */; };
+		0400F34618B4ED5000E5FA6D /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400F34318B4ED5000E5FA6D /* AGLKContext.m */; };
+		0400F34718B4ED5000E5FA6D /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400F34518B4ED5000E5FA6D /* AGLKVertexAttribArrayBuffer.m */; };
+		043587BF18B610B9002CD67C /* biker.png in Resources */ = {isa = PBXBuildFile; fileRef = 043587BE18B610B9002CD67C /* biker.png */; };
+		043587C218B612F7002CD67C /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 043587C118B612F7002CD67C /* Sprite.m */; };
+		043587C518B62D46002CD67C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043587C318B62D46002CD67C /* GLKit.framework */; };
+		043587C618B62D46002CD67C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043587C418B62D46002CD67C /* OpenGLES.framework */; };
+		043587C718B638B8002CD67C /* SpriteFShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 043587BA18B60FA9002CD67C /* SpriteFShader.fsh */; };
+		043587C818B638B8002CD67C /* SpriteVShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 043587BB18B60FA9002CD67C /* SpriteVShader.vsh */; };
+		0454B75418B690800094043F /* VertexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454B75318B690800094043F /* VertexManager.m */; };
+		0454B75618B69FE90094043F /* bike3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454B75518B69FE90094043F /* bike3.png */; };
+		0454B75818B6A0770094043F /* bike4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454B75718B6A0770094043F /* bike4.png */; };
+		0458619818B801FF00EB01FD /* ShaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458619718B801FF00EB01FD /* ShaderController.m */; };
+		0458619A18B80F8F00EB01FD /* TextureFShader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 0458619918B80F8F00EB01FD /* TextureFShader.fsh */; };
+		0458619C18B80FAE00EB01FD /* TextureVShader.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 0458619B18B80FAE00EB01FD /* TextureVShader.vsh */; };
+		0458619D18B8177500EB01FD /* TextureFShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0458619918B80F8F00EB01FD /* TextureFShader.fsh */; };
+		0458619E18B8177500EB01FD /* TextureVShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 0458619B18B80FAE00EB01FD /* TextureVShader.vsh */; };
+		04714D4718B78156004F95ED /* road1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04714D4618B78156004F95ED /* road1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +70,26 @@
 		0400F33418B4ED4200E5FA6D /* Pixel BikersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pixel BikersTests-Info.plist"; sourceTree = "<group>"; };
 		0400F33618B4ED4200E5FA6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0400F33818B4ED4200E5FA6D /* Pixel_BikersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pixel_BikersTests.m; sourceTree = "<group>"; };
+		0400F34218B4ED5000E5FA6D /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
+		0400F34318B4ED5000E5FA6D /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+		0400F34418B4ED5000E5FA6D /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		0400F34518B4ED5000E5FA6D /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		043587BA18B60FA9002CD67C /* SpriteFShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SpriteFShader.fsh; sourceTree = "<group>"; };
+		043587BB18B60FA9002CD67C /* SpriteVShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SpriteVShader.vsh; sourceTree = "<group>"; };
+		043587BE18B610B9002CD67C /* biker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biker.png; sourceTree = "<group>"; };
+		043587C018B612F7002CD67C /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		043587C118B612F7002CD67C /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		043587C318B62D46002CD67C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		043587C418B62D46002CD67C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0454B75218B690800094043F /* VertexManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexManager.h; sourceTree = "<group>"; };
+		0454B75318B690800094043F /* VertexManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexManager.m; sourceTree = "<group>"; };
+		0454B75518B69FE90094043F /* bike3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bike3.png; sourceTree = "<group>"; };
+		0454B75718B6A0770094043F /* bike4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bike4.png; sourceTree = "<group>"; };
+		0458619618B801FF00EB01FD /* ShaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderController.h; sourceTree = "<group>"; };
+		0458619718B801FF00EB01FD /* ShaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderController.m; sourceTree = "<group>"; };
+		0458619918B80F8F00EB01FD /* TextureFShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = TextureFShader.fsh; sourceTree = "<group>"; };
+		0458619B18B80FAE00EB01FD /* TextureVShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = TextureVShader.vsh; sourceTree = "<group>"; };
+		04714D4618B78156004F95ED /* road1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = road1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043587C518B62D46002CD67C /* GLKit.framework in Frameworks */,
+				043587C618B62D46002CD67C /* OpenGLES.framework in Frameworks */,
 				0400F31018B4ED4200E5FA6D /* CoreGraphics.framework in Frameworks */,
 				0400F31218B4ED4200E5FA6D /* UIKit.framework in Frameworks */,
 				0400F30E18B4ED4200E5FA6D /* Foundation.framework in Frameworks */,
@@ -101,6 +140,8 @@
 		0400F30C18B4ED4200E5FA6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				043587C318B62D46002CD67C /* GLKit.framework */,
+				043587C418B62D46002CD67C /* OpenGLES.framework */,
 				0400F30D18B4ED4200E5FA6D /* Foundation.framework */,
 				0400F30F18B4ED4200E5FA6D /* CoreGraphics.framework */,
 				0400F31118B4ED4200E5FA6D /* UIKit.framework */,
@@ -112,12 +153,30 @@
 		0400F31318B4ED4200E5FA6D /* Pixel Bikers */ = {
 			isa = PBXGroup;
 			children = (
+				0400F34218B4ED5000E5FA6D /* AGLKContext.h */,
+				0400F34318B4ED5000E5FA6D /* AGLKContext.m */,
+				0400F34418B4ED5000E5FA6D /* AGLKVertexAttribArrayBuffer.h */,
+				0400F34518B4ED5000E5FA6D /* AGLKVertexAttribArrayBuffer.m */,
 				0400F31C18B4ED4200E5FA6D /* AppDelegate.h */,
 				0400F31D18B4ED4200E5FA6D /* AppDelegate.m */,
-				0400F31F18B4ED4200E5FA6D /* Main.storyboard */,
 				0400F32218B4ED4200E5FA6D /* ViewController.h */,
 				0400F32318B4ED4200E5FA6D /* ViewController.m */,
+				043587C018B612F7002CD67C /* Sprite.h */,
+				043587C118B612F7002CD67C /* Sprite.m */,
+				0458619618B801FF00EB01FD /* ShaderController.h */,
+				0458619718B801FF00EB01FD /* ShaderController.m */,
+				043587BA18B60FA9002CD67C /* SpriteFShader.fsh */,
+				043587BB18B60FA9002CD67C /* SpriteVShader.vsh */,
+				0458619918B80F8F00EB01FD /* TextureFShader.fsh */,
+				0458619B18B80FAE00EB01FD /* TextureVShader.vsh */,
+				0400F31F18B4ED4200E5FA6D /* Main.storyboard */,
 				0400F32518B4ED4200E5FA6D /* Images.xcassets */,
+				04714D4618B78156004F95ED /* road1.png */,
+				043587BE18B610B9002CD67C /* biker.png */,
+				0454B75518B69FE90094043F /* bike3.png */,
+				0454B75718B6A0770094043F /* bike4.png */,
+				0454B75218B690800094043F /* VertexManager.h */,
+				0454B75318B690800094043F /* VertexManager.m */,
 				0400F31418B4ED4200E5FA6D /* Supporting Files */,
 			);
 			path = "Pixel Bikers";
@@ -228,9 +287,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0458619D18B8177500EB01FD /* TextureFShader.fsh in Resources */,
+				0458619E18B8177500EB01FD /* TextureVShader.vsh in Resources */,
+				043587C718B638B8002CD67C /* SpriteFShader.fsh in Resources */,
+				043587C818B638B8002CD67C /* SpriteVShader.vsh in Resources */,
+				043587BF18B610B9002CD67C /* biker.png in Resources */,
+				04714D4718B78156004F95ED /* road1.png in Resources */,
+				0454B75818B6A0770094043F /* bike4.png in Resources */,
 				0400F32618B4ED4200E5FA6D /* Images.xcassets in Resources */,
 				0400F31818B4ED4200E5FA6D /* InfoPlist.strings in Resources */,
 				0400F32118B4ED4200E5FA6D /* Main.storyboard in Resources */,
+				0454B75618B69FE90094043F /* bike3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +316,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0458619818B801FF00EB01FD /* ShaderController.m in Sources */,
+				0400F34618B4ED5000E5FA6D /* AGLKContext.m in Sources */,
 				0400F32418B4ED4200E5FA6D /* ViewController.m in Sources */,
+				043587C218B612F7002CD67C /* Sprite.m in Sources */,
+				0458619A18B80F8F00EB01FD /* TextureFShader.fsh in Sources */,
+				0458619C18B80FAE00EB01FD /* TextureVShader.vsh in Sources */,
+				0400F34718B4ED5000E5FA6D /* AGLKVertexAttribArrayBuffer.m in Sources */,
 				0400F31E18B4ED4200E5FA6D /* AppDelegate.m in Sources */,
 				0400F31A18B4ED4200E5FA6D /* main.m in Sources */,
+				0454B75418B690800094043F /* VertexManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +534,7 @@
 				0400F33E18B4ED4200E5FA6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0400F33F18B4ED4200E5FA6D /* Build configuration list for PBXNativeTarget "Pixel BikersTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +543,7 @@
 				0400F34118B4ED4200E5FA6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

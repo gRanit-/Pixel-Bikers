@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GLKit/GLKit.h>
+@class  AGLKVertexAttribArrayBuffer;
+@class  Sprite;
+@interface ViewController : GLKViewController
 
-@interface ViewController : UIViewController
+
+@property (strong, nonatomic) GLKBaseEffect* baseEffect;
+@property (strong, nonatomic) AGLKVertexAttribArrayBuffer* vertexBuffer;
+@property (strong, nonatomic) GLKTextureInfo* bikerTexture;
+@property (strong, nonatomic) GLKTextureInfo* roadTexture;
+@property (strong, nonatomic) Sprite *playerSprite;
+@property (strong,nonatomic)  NSMutableArray* players;
+@property(strong,nonatomic) NSTimer* timer;
+
+
+
+
 
 @end
